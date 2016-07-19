@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: 600px;
 }
 
 
@@ -21,7 +21,6 @@ button {
 }
 
 button:hover {
-  color: #FFFFFF;
   background-color: #B2479A;;
   border-top: 8px solid #CC7FB5;
   border-bottom: 8px solid #CC7FB5;
