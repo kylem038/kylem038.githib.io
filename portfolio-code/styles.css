@@ -1,0 +1,164 @@
+/* header nav */
+
+header {
+  background-color: #FFFAD5;
+  height: 79px;
+  width: auto;
+  border-bottom: 5px solid black;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  margin-left: auto;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+nav li {
+  padding: 30px;
+  font-family: 'Farsan', cursive;
+  font-size: 1.2em;
+}
+
+nav li:hover {
+  background: #00A3B0;
+}
+
+nav h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 1.5em;
+  background-size: 45px;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*begin body content*/
+
+h2 {
+  font-family: 'Bungee Inline', cursive;
+  margin-bottom: 45px;
+  text-align: center;
+  font-size: 3em;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #BFBDB0;
+  padding: 50px;
+  border-bottom: 5px solid black;
+}
+
+p {
+  font-family: 'Lora', serif;
+  font-weight: bolder;
+  margin-top: 10px;
+  text-align: center;
+}
+
+footer {
+  font-size: 8px;
+  height: 180px;
+  width: auto;
+  background-color: #3C5F57;
+  bottom: 0;
+  padding-top: 30px;
+  border-top: 5px solid black;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 25px;
+}
+
+/*begin class styles*/
+.home-page{
+  padding-top: 125px;
+}
+
+.guesser-img {
+  display: flex;
+  margin: auto;
+  height: auto;
+  width: 600px;
+  border: 2px solid black;
+}
+
+.linked-list-img {
+  display: flex;
+  margin: auto;
+  height: auto;
+  width: 600px;
+  border: 2px solid black;
+  margin-top: 15px;
+}
+
+.ideabox-img {
+  display: flex;
+  margin: auto;
+  height: auto;
+  width: 600px;
+  border: 2px solid black;
+  margin-top: 15px;
+}
+
+.snake-img {
+  display: flex;
+  margin: auto;
+  height: auto;
+  width: 600px;
+  border: 2px solid black;
+  margin-top: 15px;
+}
+
+/*begin repsonsive code*/
+@media screen and (max-width: 700px){
+  header {
+    width: 700px;
+    height: 77px;
+  }
+
+  body {
+    width: 700px;
+  }
+
+  nav ul {
+    margin-left: 0;
+  }
+  nav li {
+    font-size: 1.1em;
+  }
+
+  .guesser-img  {
+    height: 150px;
+    width: 500px;
+    margin-left: 53px;
+  }
+
+  .linked-list-img {
+    height: 200px;
+    width: 500px;
+    margin-left: 53px;
+  }
+
+  .ideabox-img {
+    height: 200px;
+    width: 500px;
+    margin-left: 53px;
+  }
+
+}
